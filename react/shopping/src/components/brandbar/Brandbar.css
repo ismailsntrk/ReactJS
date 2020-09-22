@@ -1,0 +1,27 @@
+.nav-box{
+    margin-top: 0;
+    padding: 0;
+    min-width: 100vw;
+    z-index: 400;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    
+    color:white;
+    background-image: url('https://s3.amazonaws.com/lastsecondcoupon/bar_pic/qab/92051/dfd08679-a13d-441d-9432-5ae7d845523b.jpg');
+    height: 10vh;
+}
+
+.brand-btn{
+    cursor: pointer;
+    width: 13vw;
+    height: 3em;
+    margin-right: 4em;
+    font-size:20px;
+   margin-left: 2em;
+    color:black;
+    border-radius: 1vh;
+    border: none;
+    background-color: yellow;
+}

@@ -1,0 +1,142 @@
+#mine {
+  max-height: 10em;
+  min-width: 100vw;
+}
+.header-top {
+  background-color: blueviolet;
+
+  width: 100vw;
+  text-align: center;
+}
+
+#header-top-p {
+  margin-top: 1vh;
+  font-size: 1rem;
+  font-weight: 800;
+  max-height: 10px;
+}
+
+.header-bot {
+  background-color: black;
+  min-height: 9vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+}
+#nav-link-box {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+  list-style-type: none;
+  font-size: 0.9em;
+  margin-left: 5vw;
+}
+
+.nav-links {
+  color: white;
+  padding-left: 10px;
+  padding-right: 1em;
+
+  border-right: purple 1px solid;
+}
+
+.normal-logo {
+  max-height: 5vh;
+}
+
+.buscar-caja {
+  position: absolute;
+  margin-top: 3vh;
+
+  margin-left: 1vw;
+  transform: translate(-50%, -50%);
+  background: #2f3640;
+  height: 4vh;
+  border-radius: 4vw;
+  padding: 0px;
+}
+
+.buscar-caja:hover > .buscar-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.buscar-caja:hover > .buscar-btn {
+  background: white;
+  color: black;
+}
+
+.buscar-btn {
+  color: purple;
+  float: right;
+  width: 4vh;
+  height: 4vh;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+}
+
+.buscar-btn > i {
+  font-size: 30px;
+}
+
+.buscar-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  font-weight: bold;
+}
+
+#nav-row {
+  margin-left: 10vw;
+
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+#nav-card {
+  margin-right: 15vw;
+
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+
+#Popover1 {
+  color: white;
+}
+
+#Popover1:hover {
+  color: purple;
+  text-decoration-line: none;
+}
+
+#brief-icon {
+  color: white;
+}
+
+#brief-icon:hover {
+  color: purple;
+}
+
+#nav-link-box:hover a {
+  text-decoration-line: none;
+}
+
+#map-sign {
+  color: purple;
+  font-size: 1.3em;
+}

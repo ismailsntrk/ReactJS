@@ -1,0 +1,22 @@
+#order-div{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70vw;
+    min-height: 40vh;
+    background-image: url('//cdn.shopify.com/s/files/1/1946/2989/files/lookbook_top_img_2_762be29f-37d7-4f0f-8822-1daad3dda384.jpg?v=1542704251');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+#order-div h2{
+margin-top: 8vh;
+}
+
+#order-div #order-btn{
+    margin-top: 1vh;
+}

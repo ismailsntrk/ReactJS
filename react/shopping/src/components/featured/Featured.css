@@ -1,0 +1,47 @@
+.featured-img {
+  max-width: 15vw;
+}
+.featured-img2 {
+  max-width: 15vw;
+}
+
+.title-row {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  text-align: center;
+  
+  min-width: 100%;
+
+}
+
+.title-row2 {
+  margin-top: 7vh;
+  margin-bottom: 3vh;
+  min-width: 100%;
+ color: lightgray;
+
+}
+
+
+
+#line-thing {
+  border: grey 1px solid;
+  width: 100%;
+}
+#img-cont {
+  margin-top: 10vh;
+  min-height: max-content;
+  background: url("//cdn.shopify.com/s/files/1/1946/2989/files/lookbook_top_img_2_762be29f-37d7-4f0f-8822-1daad3dda384.jpg?v=1542704251")
+    no-repeat;
+  text-align: center;
+}
+
+.order-btn {
+  margin-top: 4vh;
+}
+
+.feat-div{
+    max-width: 100vw;
+   
+}
+
